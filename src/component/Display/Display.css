@@ -1,0 +1,85 @@
+.display-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  height: 45%;
+  cursor: pointer;
+}
+
+.upper div{
+    overflow: hidden;
+}
+.upper div img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.upper div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.lower {
+  display: flex;
+  justify-content: center;
+  height: 45%;
+  cursor: pointer;
+}
+
+.lower div{
+  overflow: hidden;
+}
+.lower div img{
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.lower div:hover img {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+
+.upper > .upper-img,
+.lower > .lower-img {
+  max-width: 33.33%;
+  position: relative;
+}
+
+.upper img,
+.lower img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* padding: 20px; */
+}
+
+.overlay h3 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.overlay p {
+  color: #fff;
+  font-size: 14px;
+}

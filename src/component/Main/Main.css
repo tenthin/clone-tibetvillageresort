@@ -1,0 +1,26 @@
+.main-page{
+    background-image:url("../../../public/image/stockImages/background-tibetresort.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main-page::before{
+    content: "";
+    /* background-image:url("../../../public/image/stockImages/background-tibetresort.jpg"); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.main-page div{
+    position: relative;
+}
+/* 
+.main-page div Header{
+    position: sticky;
+} */

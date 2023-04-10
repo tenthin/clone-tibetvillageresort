@@ -1,0 +1,10 @@
+.hero{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Prata", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    margin: 0 228px 57px;
+    color: #fff;
+}
